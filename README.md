@@ -1,1 +1,1 @@
-# discord-bots
+# Some discord bots written in python
