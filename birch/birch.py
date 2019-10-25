@@ -6,7 +6,7 @@ import json
 import asyncio
 from pprint import pprint
 
-with open('tokens.json', 'r') as f:
+with open('../tokens.json', 'r') as f:
     d = json.load(f)
 TOKEN = d['birch']
 client = discord.Client()
@@ -55,7 +55,7 @@ d = {"A":11,
 def unown(s):
     return f'{base}{d[s.upper()]}{end}'
 
-letters = list('goodbye')
+letters = list('helpme')
 import time
 
 @client.event
